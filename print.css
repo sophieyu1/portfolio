@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="print.css" media="print">
+
+@media print {
+
+nav {
+    display:none;
+}
+
+footer {
+    display:none;
+}
+
+button {
+    display:none;
+}
+
+.video {
+    display:none;
+}
+
+}
+
+.project-card{
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+@page{
+
+size: Letter;
+
+margin:0.6in;
+
+}
+
+body{
+
+font-size:11pt;
+
+line-height:1.5;
+
+}
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+}
