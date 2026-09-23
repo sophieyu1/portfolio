@@ -1,0 +1,11 @@
+{
+  "title": "sophie_yu_portfolio",
+  "description": "Showcase your work with a sleek black and white portfolio website designed to highlight your projects and attract potential clients or employers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
